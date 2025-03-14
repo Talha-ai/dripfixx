@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import BackgroundImages from '../components/BackgroundImages';
 import Info from '../components/Info';
 import Features from '../components/Features';
+import MainComponent from '../components/footer';
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
         <div className="max-w-5xl mx-auto mt-10 h-[1px] bg-gray-500"></div>
 
         <Features />
+        <MainComponent />
       </div>
     </>
   );

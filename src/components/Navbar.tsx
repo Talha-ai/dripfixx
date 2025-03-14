@@ -23,40 +23,28 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             <ul className="flex space-x-6">
               <li>
-                <a
-                  href="#"
-                  className="text-white hover:text-blue-500 font-medium"
-                >
+                <a href="#" className=" hover:text-blue-500 font-medium">
                   Application Area
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-white hover:text-blue-500 font-medium"
-                >
+                <a href="#" className=" hover:text-blue-500 font-medium">
                   How To Use
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-white hover:text-blue-500 font-medium"
-                >
+                <a href="#" className=" hover:text-blue-500 font-medium">
                   Contact Us
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-white hover:text-blue-500 font-medium"
-                >
+                <a href="#" className=" hover:text-blue-500 font-medium">
                   Resources
                 </a>
               </li>
             </ul>
 
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-medium transition duration-300">
+            <button className="bg-blue-500 hover:bg-blue-600  px-4 py-2 rounded-md font-medium transition duration-300">
               Buy Now
             </button>
           </div>
@@ -65,22 +53,22 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             <ul className="flex space-x-3">
               <li>
-                <a href="#" className="text-white hover:text-blue-500 text-xl">
+                <a href="#" className=" hover:text-blue-500 text-xl">
                   <FaFacebook />
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-blue-500 text-xl">
+                <a href="#" className=" hover:text-blue-500 text-xl">
                   <FaEnvelope />
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-blue-500 text-xl">
+                <a href="#" className=" hover:text-blue-500 text-xl">
                   <FaPhone />
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-blue-500 text-xl">
+                <a href="#" className=" hover:text-blue-500 text-xl">
                   <FaWhatsapp />
                 </a>
               </li>
@@ -89,7 +77,7 @@ const Navbar = () => {
 
           {/* Mobile menu button - can be expanded in the future */}
           <div className="md:hidden flex items-center">
-            <button className="text-white hover:text-blue-500">
+            <button className=" hover:text-blue-500">
               <svg
                 className="h-6 w-6"
                 fill="none"

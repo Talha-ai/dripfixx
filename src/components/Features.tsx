@@ -99,7 +99,7 @@ const Features = () => {
             </p>
 
             <Image
-              src="/RPP1.png"
+              src="/RPP1-removebg.png"
               alt="Elephant Shield's Liquid Rubber"
               width={400}
               height={400}
@@ -109,34 +109,35 @@ const Features = () => {
 
           <div className="max-w-5xl my-10 mx-auto mt-10 h-[1px] bg-gray-500"></div>
 
-          <div className="flex w-full justify-between">
-            <div>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-20 w-full px-6 md:px-12 py-10">
+            {/* Left Side - Image */}
+            <div className="w-full md:w-1/2 flex justify-center">
               <Image
-                src="/RPP1.png"
+                src="/RPP1-removebg.png"
                 alt="Elephant Shield's Liquid Rubber"
                 width={400}
                 height={400}
-                className="object-contain mx-auto mt-10 rounded-full"
+                className="object-contain rounded-full"
               />
             </div>
-            <div>
-              <h1>
-                Unique Product with <br /> Unique Characteristics
+
+            {/* Right Side - Content */}
+            <div className="w-full md:w-1/2 mt-6 md:mt-0 text-center md:text-left">
+              <h1 className="text-2xl font-bold text-white">
+                Unique Product with <br className="hidden md:block" /> Unique
+                Characteristics
               </h1>
-              <ol>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
-                <li>Performing all over the world since 2001 Water-based</li>
+              <ol className="mt-4 space-y-3 text-white list-disc list-inside">
+                <li>
+                  The upper facing of the coreless waterproofing self-adhesive
+                  membrane BM SELF serves dual purposes: reinforcement and extra
+                  protection.
+                </li>
+                <li>Cold applied, no heating required</li>
+                <li>Easy, swift, and clean to install</li>
+                <li>Permanent flexibility and safeguard against water</li>
+                <li>Effective barrier for both water and vapor</li>
+                <li>Absorbs substrate movement</li>
               </ol>
             </div>
           </div>

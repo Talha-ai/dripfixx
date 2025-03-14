@@ -50,7 +50,7 @@ const BackgroundImages = () => {
         {/* Product Image (Bucket) */}
         <div className="hidden md:block">
           <Image
-            src="/RPP1.png"
+            src="/RPP1-removebg.png"
             alt="Elephant Shield's Liquid Rubber"
             width={400}
             height={400}
