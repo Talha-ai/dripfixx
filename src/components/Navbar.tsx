@@ -1,10 +1,13 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { FaEnvelope, FaFacebook, FaPhone, FaWhatsapp } from 'react-icons/fa';
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
-    <nav className="fixed top-0 left-0 w-full h-20 bg-transparent z-50 bg-gradient-to-b from-black/80 to-transparent pt-2">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
@@ -23,28 +26,40 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             <ul className="flex space-x-6">
               <li>
-                <a href="#" className=" hover:text-blue-500 font-medium">
+                <a
+                  href="#"
+                  className="text-gray-700 hover:text-blue-600 font-medium"
+                >
                   Application Area
                 </a>
               </li>
               <li>
-                <a href="#" className=" hover:text-blue-500 font-medium">
+                <a
+                  href="#"
+                  className="text-gray-700 hover:text-blue-600 font-medium"
+                >
                   How To Use
                 </a>
               </li>
               <li>
-                <a href="#" className=" hover:text-blue-500 font-medium">
+                <a
+                  href="#"
+                  className="text-gray-700 hover:text-blue-600 font-medium"
+                >
                   Contact Us
                 </a>
               </li>
               <li>
-                <a href="#" className=" hover:text-blue-500 font-medium">
+                <a
+                  href="#"
+                  className="text-gray-700 hover:text-blue-600 font-medium"
+                >
                   Resources
                 </a>
               </li>
             </ul>
 
-            <button className="bg-blue-500 hover:bg-blue-600  px-4 py-2 rounded-md font-medium transition duration-300">
+            <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md font-medium transition duration-300">
               Buy Now
             </button>
           </div>
@@ -53,31 +68,46 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             <ul className="flex space-x-3">
               <li>
-                <a href="#" className=" hover:text-blue-500 text-xl">
+                <a
+                  href="#"
+                  className="text-blue-600 hover:text-blue-700 text-lg"
+                >
                   <FaFacebook />
                 </a>
               </li>
               <li>
-                <a href="#" className=" hover:text-blue-500 text-xl">
+                <a
+                  href="#"
+                  className="text-blue-600 hover:text-blue-700 text-lg"
+                >
                   <FaEnvelope />
                 </a>
               </li>
               <li>
-                <a href="#" className=" hover:text-blue-500 text-xl">
+                <a
+                  href="#"
+                  className="text-blue-600 hover:text-blue-700 text-lg"
+                >
                   <FaPhone />
                 </a>
               </li>
               <li>
-                <a href="#" className=" hover:text-blue-500 text-xl">
+                <a
+                  href="#"
+                  className="text-blue-600 hover:text-blue-700 text-lg"
+                >
                   <FaWhatsapp />
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Mobile menu button - can be expanded in the future */}
+          {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
-            <button className=" hover:text-blue-500">
+            <button
+              className="text-gray-700 hover:text-blue-600"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
               <svg
                 className="h-6 w-6"
                 fill="none"
@@ -94,6 +124,65 @@ const Navbar = () => {
             </button>
           </div>
         </div>
+
+        {/* Mobile menu */}
+        {isMenuOpen && (
+          <div className="md:hidden bg-white py-4 border-t border-gray-200">
+            <ul className="flex flex-col space-y-2 px-4">
+              <li>
+                <a
+                  href="#"
+                  className="block text-gray-700 hover:text-blue-600 font-medium py-2"
+                >
+                  Application Area
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block text-gray-700 hover:text-blue-600 font-medium py-2"
+                >
+                  How To Use
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block text-gray-700 hover:text-blue-600 font-medium py-2"
+                >
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block text-gray-700 hover:text-blue-600 font-medium py-2"
+                >
+                  Resources
+                </a>
+              </li>
+            </ul>
+            <div className="mt-4 px-4">
+              <button className="w-full bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md font-medium transition duration-300">
+                Buy Now
+              </button>
+            </div>
+            <div className="flex justify-center mt-4 space-x-4">
+              <a href="#" className="text-blue-600 hover:text-blue-700 text-lg">
+                <FaFacebook />
+              </a>
+              <a href="#" className="text-blue-600 hover:text-blue-700 text-lg">
+                <FaEnvelope />
+              </a>
+              <a href="#" className="text-blue-600 hover:text-blue-700 text-lg">
+                <FaPhone />
+              </a>
+              <a href="#" className="text-blue-600 hover:text-blue-700 text-lg">
+                <FaWhatsapp />
+              </a>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );
