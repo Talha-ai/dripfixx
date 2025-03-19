@@ -5,7 +5,7 @@ const PartnerSection = () => {
   return (
     <div className="text-center px-6 md:px-12 py-16 bg-blue-50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-[#0000FF] mb-4">
+        <h2 className="text-3xl font-bold text-[#37589d] mb-4">
           Become a Partner
         </h2>
         <p className="text-gray-700 mb-6">
@@ -14,7 +14,7 @@ const PartnerSection = () => {
           such as Waterproofing, Corrosion Protection, Chemical Protection,
           Engineered Coatings, or Related Industrial Products.
         </p>
-        <button className="px-8 py-3 bg-[#0000FF] text-white rounded-full hover:bg-[#0000FF] transition font-medium">
+        <button className="px-8 py-3 bg-[#37589d] text-white rounded-full hover:bg-[#37589d] transition font-medium">
           Know More
         </button>
       </div>
@@ -26,7 +26,7 @@ const SupportSection = () => {
   return (
     <div className="text-center px-6 md:px-12 py-16 bg-white">
       <div className="max-w-4xl mx-auto">
-        <h3 className="text-3xl font-bold text-[#0000FF] mb-8">
+        <h3 className="text-3xl font-bold text-[#37589d] mb-8">
           Quick Support
         </h3>
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
@@ -39,10 +39,10 @@ const SupportSection = () => {
             <span className="font-medium">9999999999</span>
           </div>
           <div className="flex items-center gap-2 text-xl text-gray-700">
-            <FaEnvelope className="text-[#0000FF]" size={20} />
+            <FaEnvelope className="text-[#37589d]" size={20} />
             <a
               href="mailto:support@drippfix.com"
-              className="font-medium hover:text-[#0000FF]"
+              className="font-medium hover:text-[#37589d]"
             >
               support@drippfix.com
             </a>

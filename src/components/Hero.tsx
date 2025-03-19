@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="relative bg-gradient-to-r from-[#0000FF] to-[#0000FF] pt-16">
+    <div className="relative bg-gradient-to-r from-[#37589d] to-[#37589d] pt-16">
       <div className="container mx-auto px-14 py-16">
         <div className="flex flex-col md:flex-row items-center justify-between">
           {/* Left content */}
@@ -20,7 +20,7 @@ const Hero = () => {
 
             <a
               href="#"
-              className="inline-flex items-center bg-white text-[#0000FF] hover:bg-blue-50 px-6 py-3 rounded-full font-medium transition-colors"
+              className="inline-flex items-center bg-white text-[#37589d] hover:bg-blue-50 px-6 py-3 rounded-full font-medium transition-colors"
             >
               Buy Now
               <svg

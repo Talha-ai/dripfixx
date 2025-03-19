@@ -22,7 +22,7 @@ const Features = () => {
       <div className="container mx-auto max-w-5xl">
         {/* Features Grid */}
         <div className="bg-white rounded-xl shadow-md p-8 mb-12">
-          <h2 className="text-3xl font-bold mb-8 text-center text-[#0000FF]">
+          <h2 className="text-3xl font-bold mb-8 text-center text-[#37589d]">
             Key Features
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
@@ -31,7 +31,7 @@ const Features = () => {
                 key={index}
                 className="flex flex-col justify-center items-center text-center"
               >
-                <div className="text-[#0000FF] text-4xl mb-2">
+                <div className="text-[#37589d] text-4xl mb-2">
                   {feature.icon}
                 </div>
                 <span className="text-2xl font-bold text-red-600 mt-2">
@@ -45,7 +45,7 @@ const Features = () => {
 
         {/* Application Info */}
         <div className="bg-gray-50 rounded-xl p-8 mb-12">
-          <h3 className="text-2xl font-bold mb-4 text-[#0000FF]">
+          <h3 className="text-2xl font-bold mb-4 text-[#37589d]">
             Direct Application on Any Surface
           </h3>
           <p className="text-gray-700 mb-6">
@@ -83,7 +83,7 @@ const Features = () => {
 
           {/* Right Side - Content */}
           <div className="w-full md:w-1/2">
-            <h3 className="text-2xl font-bold text-[#0000FF] mb-4">
+            <h3 className="text-2xl font-bold text-[#37589d] mb-4">
               Unique Product with Unique Characteristics
             </h3>
             <ul className="space-y-3 list-disc list-inside text-gray-700">

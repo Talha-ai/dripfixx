@@ -28,7 +28,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 hover:text-[#0000FF] font-medium"
+                  className="text-gray-700 hover:text-[#37589d] font-medium"
                 >
                   Application Area
                 </a>
@@ -36,7 +36,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 hover:text-[#0000FF] font-medium"
+                  className="text-gray-700 hover:text-[#37589d] font-medium"
                 >
                   How To Use
                 </a>
@@ -44,7 +44,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 hover:text-[#0000FF] font-medium"
+                  className="text-gray-700 hover:text-[#37589d] font-medium"
                 >
                   Contact Us
                 </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-700 hover:text-[#0000FF] font-medium"
+                  className="text-gray-700 hover:text-[#37589d] font-medium"
                 >
                   Resources
                 </a>
@@ -70,7 +70,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="text-[#0000FF] hover:text-[#0000FF] text-lg"
+                  className="text-[#37589d] hover:text-[#37589d] text-lg"
                 >
                   <FaFacebook />
                 </a>
@@ -78,7 +78,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="text-[#0000FF] hover:text-[#0000FF] text-lg"
+                  className="text-[#37589d] hover:text-[#37589d] text-lg"
                 >
                   <FaEnvelope />
                 </a>
@@ -86,7 +86,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="text-[#0000FF] hover:text-[#0000FF] text-lg"
+                  className="text-[#37589d] hover:text-[#37589d] text-lg"
                 >
                   <FaPhone />
                 </a>
@@ -94,7 +94,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="text-[#0000FF] hover:text-[#0000FF] text-lg"
+                  className="text-[#37589d] hover:text-[#37589d] text-lg"
                 >
                   <FaWhatsapp />
                 </a>
@@ -105,7 +105,7 @@ const Navbar = () => {
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button
-              className="text-gray-700 hover:text-[#0000FF]"
+              className="text-gray-700 hover:text-[#37589d]"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <svg
@@ -132,7 +132,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="block text-gray-700 hover:text-[#0000FF] font-medium py-2"
+                  className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
                 >
                   Application Area
                 </a>
@@ -140,7 +140,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="block text-gray-700 hover:text-[#0000FF] font-medium py-2"
+                  className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
                 >
                   How To Use
                 </a>
@@ -148,7 +148,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="block text-gray-700 hover:text-[#0000FF] font-medium py-2"
+                  className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
                 >
                   Contact Us
                 </a>
@@ -156,7 +156,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="block text-gray-700 hover:text-[#0000FF] font-medium py-2"
+                  className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
                 >
                   Resources
                 </a>
@@ -170,25 +170,25 @@ const Navbar = () => {
             <div className="flex justify-center mt-4 space-x-4">
               <a
                 href="#"
-                className="text-[#0000FF] hover:text-[#0000FF] text-lg"
+                className="text-[#37589d] hover:text-[#37589d] text-lg"
               >
                 <FaFacebook />
               </a>
               <a
                 href="#"
-                className="text-[#0000FF] hover:text-[#0000FF] text-lg"
+                className="text-[#37589d] hover:text-[#37589d] text-lg"
               >
                 <FaEnvelope />
               </a>
               <a
                 href="#"
-                className="text-[#0000FF] hover:text-[#0000FF] text-lg"
+                className="text-[#37589d] hover:text-[#37589d] text-lg"
               >
                 <FaPhone />
               </a>
               <a
                 href="#"
-                className="text-[#0000FF] hover:text-[#0000FF] text-lg"
+                className="text-[#37589d] hover:text-[#37589d] text-lg"
               >
                 <FaWhatsapp />
               </a>
