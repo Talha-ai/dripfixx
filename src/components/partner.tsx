@@ -10,7 +10,7 @@ const PartnerSection = () => {
         Waterproofing, Corrosion Protection, Chemical Protection, Engineered
         Coatings, or Related Industrial Products.
       </p>
-      <button className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
+      <button className="mt-6 px-6 py-2 bg-[#0000FF] text-white rounded-full hover:bg-[#0000FF] transition">
         Know More
       </button>
     </div>
@@ -28,7 +28,7 @@ const SupportSection = () => {
         📧{' '}
         <a
           href="mailto:support@elephantshield.com"
-          className="text-blue-600 underline"
+          className="text-[#0000FF] underline"
         >
           support@elephantshield.com
         </a>
