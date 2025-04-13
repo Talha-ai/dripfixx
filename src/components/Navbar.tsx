@@ -126,75 +126,67 @@ const Navbar = () => {
         </div>
 
         {/* Mobile menu */}
-        {isMenuOpen && (
-          <div className="md:hidden bg-white py-4 border-t border-gray-200">
-            <ul className="flex flex-col space-y-2 px-4">
-              <li>
-                <a
-                  href="#"
-                  className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
-                >
-                  Application Area
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
-                >
-                  How To Use
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
-                >
-                  Contact Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
-                >
-                  Resources
-                </a>
-              </li>
-            </ul>
-            <div className="mt-4 px-4">
-              <button className="w-full bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md font-medium transition duration-300">
-                Buy Now
-              </button>
-            </div>
-            <div className="flex justify-center mt-4 space-x-4">
+        <div
+          className={`md:hidden bg-white overflow-hidden transition-all duration-300 ease-in-out border-t border-gray-200 ${
+            isMenuOpen
+              ? 'max-h-[1000px] opacity-100 py-4'
+              : 'max-h-0 opacity-0 py-0'
+          }`}
+        >
+          <ul className="flex flex-col space-y-2 px-4">
+            <li>
               <a
                 href="#"
-                className="text-[#37589d] hover:text-[#37589d] text-lg"
+                className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
               >
-                <FaFacebook />
+                Application Area
               </a>
+            </li>
+            <li>
               <a
                 href="#"
-                className="text-[#37589d] hover:text-[#37589d] text-lg"
+                className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
               >
-                <FaEnvelope />
+                How To Use
               </a>
+            </li>
+            <li>
               <a
                 href="#"
-                className="text-[#37589d] hover:text-[#37589d] text-lg"
+                className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
               >
-                <FaPhone />
+                Contact Us
               </a>
+            </li>
+            <li>
               <a
                 href="#"
-                className="text-[#37589d] hover:text-[#37589d] text-lg"
+                className="block text-gray-700 hover:text-[#37589d] font-medium py-2"
               >
-                <FaWhatsapp />
+                Resources
               </a>
-            </div>
+            </li>
+          </ul>
+          <div className="mt-4 px-4">
+            <button className="w-full bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md font-medium transition duration-300">
+              Buy Now
+            </button>
           </div>
-        )}
+          <div className="flex justify-center mt-4 space-x-4">
+            <a href="#" className="text-[#37589d] hover:text-[#37589d] text-lg">
+              <FaFacebook />
+            </a>
+            <a href="#" className="text-[#37589d] hover:text-[#37589d] text-lg">
+              <FaEnvelope />
+            </a>
+            <a href="#" className="text-[#37589d] hover:text-[#37589d] text-lg">
+              <FaPhone />
+            </a>
+            <a href="#" className="text-[#37589d] hover:text-[#37589d] text-lg">
+              <FaWhatsapp />
+            </a>
+          </div>
+        </div>
       </div>
     </nav>
   );
