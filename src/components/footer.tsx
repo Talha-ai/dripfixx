@@ -74,6 +74,17 @@ const Footer = () => {
               Privacy Policy
             </a>
           </p>
+          <p className="mt-2 text-gray-400 text-xs">
+            Website designed by{' '}
+            <a
+              href="https://mavenaitech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-300 hover:underline"
+            >
+              MavenAITech
+            </a>
+          </p>
         </div>
       </div>
     </div>
